@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>用户登录界面</title>
+<style>
+	form{
+		width: 500px;
+		height: 500px;
+	}
+</style>
+	<script language="javascript" src="JS/myFunction.js">	
+		</script>
+</head>
+
+<body><div align="center">
+<form id="form1" name="form1" action="/demo/html/action_page.php" target="_blank" method="post" align="center" style="background-image: url('图片/login_right2.jpg');background-repeat: no-repeat;">
+	<br>
+	<br>
+	<br>
+<p >学(工)号:
+<input type="text" name="username" id="username"placeholder="学号" ><a href="表单验证代码.html">注册账号</a></p>
+<p >密  &nbsp;码:
+<input type="password" name="password" id="password"placeholder="密码" /><a href="#">找回密码？</a></p>
+<p>验证码:
+<input type="password1" name="password1" id="password1"></p>
+<a href="#">看不清换一张</a>
+	<div><input type="checkbox" name="密码" value="记住密码">记住密码
+	<input type="checkbox" name="登录" value="自动登录">自动登录</div>
+<button type="submit" id="login" onclick="myFunction()"><a href="#"placeholder="密码" >登录</a></button>
+</form></div>
+</body>
+</html>

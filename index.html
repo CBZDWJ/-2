@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" >
+	 <link rel="stylesheet" href="css文件/ex4_32.css">
+<title>旅行必备</title>
+	<style type="text/css">
+		<script>
+			function a() {
+				window.open("表单.html", '_blank')
+			}
+		</script>
+		*{margin:0px; padding: 0px; }
+		#dh{
+			position: relative;
+			margin-top: 0px;
+			width: 700px;
+			height:40px;
+			border: 0px;
+			background-color: #0099CC;
+		}
+		#dh ul{
+			padding: 0px;
+		}
+		a{
+			color: #FFF;
+			width: 100px;
+			height: 40px;
+			display: block;
+			text-decoration: none;
+			text-align: center;
+			line-height: 40px;
+			font-weight: 2px;
+		}
+		#dh {
+			margin:0px auto; 
+		}
+		#dh ul li {
+			list-style: none;
+			float: left;
+		}
+		#dh ul li a:hover{
+			background-color: #6699FF;
+		}
+		#dh ul:hover{
+			display: block;
+		}
+		#dh ul li ul{
+			background-color: #0099CC;
+			position: absolute;
+			display: none;
+		}
+		#dh ul li ul li{
+			float: none;
+			background-color: #6688EE;
+			
+		}
+		#dh ul li:hover ul{            
+			display: block;
+		}
+		.li1 {
+				border: 2px solid darkgrey;
+				float: left;
+				padding: 1em;
+				margin: 1em;
+				list-style-type: none;
+			}
+
+		
+
+			.j {
+				border-bottom: 1px dashed darkgray;
+				text-align: left;
+			}
+
+			.div1{
+				border: 1px solid none;
+				width: 39cm;
+				height: 27cm;
+				margin: auto;
+			}
+
+		.div4{float: right;
+			}
+		.div4 button{height: 40px;
+		width:60px;
+		background:#0099CC}
+		p{text-align: center}
+		.logo{float: left
+		wdith:150px;}
+		.div2{
+			background:url("图片/a.webp");
+			background-size:cover;
+		}
+	</style>
+	<script src="JS/a.js">
+		</script>
+</head>
+
+<body>
+	<div class="div2">
+	<div class="div4"><button style="color: white" onClick="a()">登录</button></div>
+	<div class="logo">
+				<p><a href="#"><img src="图片/47.jpg" width="250px" height="100px"></a></p>
+			</div>
+<div id="dh">
+  <ul>
+			<li><a href="index.html">首页</a></li>
+			<li><a href="#">深圳</a>
+					<ul>
+						<li><a href="深圳风景.html">风景</a></li>
+						<li><a href="深圳美食.html">美食</a></li>
+				</ul>
+				</li>
+			<li><a href="#">上海</a>
+					<ul>
+					<li><a href="上海风景.html">风景</a></li>
+					<li><a href="上海美食.html">美食</a></li>
+				</ul>
+				</li>
+			<li><a href="#">泰州</a>
+				<ul>
+					<li><a href="泰州风景.html">风景</a></li>
+					<li><a href="泰州美食.html">美食</a></li>
+				</ul>
+				</li>
+            <li><a href="#">青岛</a>
+								<ul>
+					<li><a href="青岛风景.html">风景</a></li>
+					<li><a href="青岛美食.html">美食</a></li>
+				</ul>
+				</li>
+			<li><a href="https://www.mafengwo.cn/gonglve/">更多>></a></li>
+		</ul>
+		
+	</div>
+
+	<div class="div1">
+			<ul>
+				<li class="li1"><img src="图片/深圳.jpg" height="200" width="400">
+					<a href="深圳.html">绿化之都深圳</a>
+				</li>
+				<li class="li1"><img src="图片/南宁.jpg" height="200" width="400">
+					<a href="南宁.html">中国绿城南宁</a>
+				</li>
+				<li class="li1"><img src="图片/泰州.jpg" height="200" width="400">
+					<a href="泰州.html">健康名城泰州</a>
+				</li>				
+				<li class="li1"><img src="图片/青岛.jpg" height="200" width="400">
+					<a href="青岛.html">理想之城青岛</a>
+				</li>								
+				<li class="li1"><img src="图片/上海.jpg" height="200" width="400">
+					<a href="#">魔都上海</a>
+				</li>
+				<li class="li1"><img src="图片/广州.jpg" height="200" width="400">
+					<a href="#">美食之都广州</a>
+				</li>
+				<li class="li1"><img src="图片/天津.jpg" height="200" width="400">
+					<a href="#">天津</a>
+				</li>
+
+				<li class="li1"><img src="图片/梧州.jpg" height="200" width="400">
+					<a href="#">梧州</a>
+				</li>
+
+				<li class="li1"><img src="图片/北京.jpg" height="200" width="400">
+					<a href="#">北京</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="sky">
+        <div class="clouds_one"></div>
+        <div class="clouds_two"></div>
+        <div class="clouds_three"></div>
+    </div>
+<audio audio src="图片/bgm.mp3" autoplay="auttoplay" controls="contro" loop="loop">
+
+</body>
+	
+</html>

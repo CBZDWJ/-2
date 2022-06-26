@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+
+		<script src="JS/tion.js">
+			
+		</script>
+
+	</head>
+	<style type="text/css">
+		.div1 {
+			height: 1.5cm;
+			background-color: skyblue;
+
+		}
+
+		.div1 p {
+			padding-left: 80px;
+			padding-top: 30px;
+
+
+		}
+
+		.div2 {
+			height: 4cm;
+			background-color:#00FFA8;
+			text-align: center;
+		}
+
+
+		.div3 {
+			text-align: center;
+		}
+
+		.div4 {
+			height: 2cm;
+			background-color: #00FFA8;
+		}
+
+		.div4 p {
+			padding-left: 1070px;
+			padding-top: 30px;
+		}
+	</style>
+	<body>
+		<div class="div1">
+			<p>创建您的账号</p>
+		</div>
+		<div class="div2">
+			<form>
+				用户名：
+				<span style="color: red;">*<input type="text" name="username" id="username">（用户名不能包含中文字符）</span><br />
+				密码：<span style="color: red;">*<input type="password" name="password" id="password"
+						placeholder="密码" />（密码长度不能小于6位）</span><br />
+				再次输入密码：<span style="color: red;">*</span>
+				<input type="password" name="newpassword" id="newpassword" placeholder="确认密码" />
+			</form>
+		</div>
+		<div class="div1">
+			<p>安全信息设置</p>
+		</div>
+		<div class="div2">
+			<form>密码保护问题：<span style="color: red;">*</span>
+				<select>
+					<option selected=”selected">请选择密码提示问题</option>
+					<option>母亲的生日</option>
+					<option>父亲的生日</option>
+					<option>姐姐的生日</option>
+				</select><br />
+				密码保护问题答案：<span style="color: red;">*</span><input type="text"><br />
+				性别：<span style="color: red;">*</span>男<input type="radio" name="sex" value="男">女<input type="radio"
+					name="sex" value="女" checked="checked"><br>
+				出生日期：<span style="color: red;">*</span><input type="text" />年<input type="text" />月<input
+					type="text">日<br />
+				手机号：<input type="text" />
+			</form>
+		</div>
+		<div class="div1">
+			<p>服务条款</p>
+		</div>
+		<div class="div4">
+			<p><input type="checkbox" name="item" value="agree">我已阅读并接受“服务条款”</p>
+		</div>
+		<div class="div3"><button type="submit" id="login" onclick="tion()">提交</button><input type="reset"
+				value="重置"></div>
+	</body>
+</html>
